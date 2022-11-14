@@ -17,6 +17,7 @@ public class TicketingProjectSecurityApplication {
 
     @Bean
     public ModelMapper mapper(){
+
         return new ModelMapper();
     }
 
